@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100px;
+    height: 150px;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 2rem;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar li {
+    color: white;
+    cursor: pointer;
+}
+
+.layout-container {
+    width: 80vw;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
