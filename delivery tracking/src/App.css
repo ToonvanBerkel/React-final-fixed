@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body {
+    background-image: url(../public/images/googleMaps.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+.navbar {
+    background-color: #1a1a1a;
+    padding-top: 2rem;
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 94vh;
+    justify-content: space-between;
+}
+
+.navbar li {
+    color: white;
+    cursor: pointer;
+}
+
+svg {
+    color: white;
+    width: 40px;
+    height: auto;
+    background-color: #333;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+}
+
+.layout-container {
+    position: absolute;
+    left: 200px;
+    background-color: #1a1a1a;
+    height: 80%;
+    margin-top: 50px;
+    color: white;
+    width: 20%;
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.card {
+    background-color: #333;
+    height: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.order {
+    font-size: 15px;
+    margin-top: 5px;
+}
+
+.status {
+    border-radius: 20px;
+    padding: 10px;
+    height: 10px;
+    position: absolute;
+    right: 60px;
+    font-size: 10px;
+}
+
+h2 {
+    margin-bottom: 50px;
+    font-size: 35px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.status-ontheway {
+    background-color: red;
+}
+
+.status-received {
+    background-color: rgb(55, 55, 255);
+}  
